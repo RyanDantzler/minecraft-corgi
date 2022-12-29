@@ -1,0 +1,26 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"ryand:corgi": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.wolf.bark",
+					"death": "mob.wolf.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.wolf.hurt",
+					"mad": "mob.fox.aggro",
+					"growl": "mob.wolf.growl",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

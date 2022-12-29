@@ -1,0 +1,27 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.corgi": {
+        "arrays": {
+          "textures": {
+            "Array.skins": [
+              "Texture.pembroke",
+              "Texture.tricolor"
+            ]
+          }
+        },
+        "geometry": "Geometry.default",
+        "part_visibility": [
+          { "mouth": "!query.is_angry && !query.is_sleeping" },
+          { "mouth_angry": "query.is_angry" },
+          { "paw*": "!query.is_sleeping" },
+          { "paw0": "!query.is_sitting" },
+          { "paw1": "!query.is_sitting" },
+          { "head": "!query.is_sleeping" },
+          { "head_sleeping": "query.is_sleeping" }
+        ],
+        "materials": [ { "*": "Material.default" } ],
+        "textures": [ "Array.skins[query.variant]" ]
+      }
+    }
+  }

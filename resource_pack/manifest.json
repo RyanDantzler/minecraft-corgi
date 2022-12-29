@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Corgi Pack",
+		"description": "Corgi Pack Resource Pack",
+		"uuid": "fc2048ac-7337-4465-9976-e084f01c4869",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Ryan Dantzler"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Corgi Pack",
+			"type": "resources",
+			"uuid": "0bac081e-f354-4d44-b5e0-a01a58285587",
+			"version": [1, 0, 0]
+		}
+	]
+}

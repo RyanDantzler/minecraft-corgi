@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ryand:corgi",
+			"materials": {
+				"default": "fox"
+			},
+			"textures": {
+				"pembroke": "textures/entity/corgi/pembroke-corgi",
+				"tricolor": "textures/entity/corgi/tricolor-corgi"
+			},
+			"geometry": {
+				"default": "geometry.corgi"
+			},
+			"animations": {
+				"walk": "animation.corgi.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.corgi.baby_transform",
+				"crouch": "animation.corgi.crouch",
+				"sleep": "animation.corgi.sleep",
+				"setup": "animation.corgi.setup",
+				"sit": "animation.corgi.sit",
+				"sniff": "animation.corgi.sniff",
+				"wiggle": "animation.corgi.wiggle",
+				"stuck": "animation.corgi.stuck",
+				"pounce": "animation.corgi.pounce",
+				"lying": "animation.corgi.lying",
+				"move": "controller.animation.corgi.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": ["controller.render.corgi"],
+			"spawn_egg": {
+				"base_color": "#f8ba57",
+				"overlay_color": "#8f8372"
+			}
+		}
+	}
+}
